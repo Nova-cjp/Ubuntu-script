@@ -1,0 +1,2 @@
+.\desktop.xlaunch
+ubuntu1804.exe run "if [ -z \"$(pidof xfce4-session)\" ]; then export DISPLAY=localhost:0;export LC_ALL="zh_CN.UTF-8";export NO_AT_BRIDGE=1;export XMODIFIERS=@im=fcitx;export GTK_IM_MODULE=fcitx;export QT_IM_MODULE=fcitx;dbus;fcitx;xfce4-session;cd ~ ; pkill '(gpg|ssh)-agent'; fi;"
